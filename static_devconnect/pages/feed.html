@@ -42,7 +42,7 @@
                 </a>
 
                 <a href="#">
-                    <img id="foto-perfil" src="../assets/images/Sao-Paulo.png" alt="">
+                    <img class="foto-perfil" src="../assets/images/Sao-Paulo.png" alt="">
                 </a>
             </div>
 
@@ -159,11 +159,11 @@
             </section>
 
             <!-- Inicio secao criar publicação -->
-            <section id="criar-publi">
+            <section id="criar-publi" class="estilo-formulario">
                 <h2>Publicação</h2>
 
                 <form action="">
-                    <textarea name="" id=""></textarea> <!-- entrada de texto grandes -->
+                    <textarea name="" id="" placeholder="Digite a descrição do post..."></textarea> <!-- entrada de texto grandes -->
 
                     <footer>
                         <div>
@@ -171,9 +171,50 @@
                             <input type="file" name="" id="campo-uploud">
                         </div>
 
-                        <button type="submit" class="formulario-botao-azul">Entrar</button>
+                        <button type="submit" class="formulario-botao-azul">Postar</button>
                     </footer>
                 </form>
+            </section>
+            <!--Fim secao criar oublicacao-->
+
+            <!--Inicio secao publicacoes-->
+            <section id="publicacoes">
+                <!--Card publi-->
+                <article class="card-publi">
+                    <header>
+                        <a href="#">
+                            <img class="foto-perfil" src="../assets/images/Sao-Paulo.png" alt="">
+                            apenas-um-cara-comum
+                        </a>
+                    </header>
+
+                    <figure>
+                        <img class="imagem-publicacao" src="../assets/images/Sao-Paulo-elenco.png" alt="">
+                        <figcaption>
+                            apenas-um-cara-comum
+                            <p class="descricao-publicacao">Elenco histórico para a conquista da copa do brasil pro São Paulo Fc.</p>
+                        </figcaption>
+
+                        <div>
+                            <div class="interacoes-publicacao">
+                                <button type="button">
+                                    <img src="../assets/images/icone-coracao-preto.svg" alt="">
+                                </button>
+
+                                <button type="button">
+                                    <img src="../assets/images/icone-comentario-preto.svg" alt="">
+                                </button>
+                                
+                                <span>209k curtidas</span>
+
+                            </div>
+                        </div>
+
+                        <button type="button">Ver todos os comentários</button>
+
+                    </figure>
+                </article>
+
             </section>
 
         </div>

@@ -34,6 +34,7 @@
     margin: 0px; /* espaco externo */
     box-sizing: border-box; /* Atribui espacos internos/externos e bordas no tamanho final do box */
     font-family: "Segoe UI", sans-serif;
+    outline-color: var(--cor-azul);
 }
 
 h1{
@@ -72,8 +73,6 @@ body{
     color: var(--cor-cinza-escuro2);
     font-weight: 600; /*   */
 }
-<<<<<<< HEAD
-=======
 
 .estilo-formulario{
     width: 100%;
@@ -88,11 +87,14 @@ body{
 #label-file{
     display: inline-block;
     width: 100%;
-    /* height: 35px; */
-    padding: 10px;
+    max-width: 300px;
+    min-height: 35px;
+    padding: 5px;
     background-color: var(--cor-cinza-escuro4);
-    border-radius: var(--borda-arredondada);
+    color: var(--cor-cinza-escuro3);
     text-align: center;
+    border-radius: var(--borda-arredondada);
+    font-weight: 35px;
 }
 
 /* cabecalho */
@@ -133,7 +135,7 @@ body{
     display: flex;
 }
 
-#foto-perfil{
+.foto-perfil{
     width: 40px;
     height: 40px;
     object-fit: cover; /* o cover mantem a proporcao com um zoom para se adaptar ao elemento*/
@@ -153,4 +155,3 @@ body{
         display: initial;
     }
 }
->>>>>>> 6e04632 (inicio da estruturacao e estilizacao tela feed)
