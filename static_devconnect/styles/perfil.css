@@ -10,7 +10,7 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    border: var(--borda);
+    border-bottom: var(--borda);
 }
 
 #foto-de-perfil > div > img{
@@ -103,7 +103,7 @@ main{
     cursor: pointer;
 }
 
-main > button{
+#comentarios{
     background-color: transparent;
     border: none;
     
@@ -111,6 +111,4 @@ main > button{
     font-size: var(--tamanho-fonte-sm);
 
     order: 3;
-
-    margin-left: 150px;
 }
