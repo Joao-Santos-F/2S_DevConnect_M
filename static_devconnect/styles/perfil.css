@@ -11,6 +11,7 @@ main{
     align-items: center;
     gap: 20px;
     border-bottom: var(--borda);
+    flex-wrap: wrap;
 }
 
 #foto-de-perfil > div > img{
