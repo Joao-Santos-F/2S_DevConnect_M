@@ -7,7 +7,6 @@ main{
 }
 
 .container-flex-publi{
-    background-color: blueviolet;
     /* height: 700px; */
     width: 90%;
     max-width: 900px;
@@ -112,7 +111,6 @@ main{
 /* secao publicacoes */
 
 #publicacoes{
-    background-color: chocolate;
     width: 100%;
 }
 
@@ -137,6 +135,7 @@ main{
 .card-publi > figure{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .imagem-publicacao{
